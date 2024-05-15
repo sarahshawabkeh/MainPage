@@ -1,0 +1,43 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: lightblue;
+  background-image: url('pexels-johannes-plenio-1103970.jpg');
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  font-family: 'orbitron';
+  color: white;
+}
+table{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+td{
+  height: 40px;
+  color: black;
+  padding-top: 4px 0px;
+  font-family: calibri;
+  transition: background-color 0.25s;
+}
+td:hover{
+  background-color: rgba(211, 211, 211, 0.4);
+}
+img{
+  height: 40px;
+}
+.table2{
+  width: 85%;
+  border-color: white; 
+  border: solid;
+  padding: 4px;
+}
+.table2 td{
+  border: solid;
+  font-size: 20px;
+  font-family: calibri;
+}
